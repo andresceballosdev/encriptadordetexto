@@ -1,0 +1,170 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    height: 800px;
+    background: linear-gradient(45deg, #7a1e1e, #533edc);
+  }
+/* encaezado */
+
+
+.titulo{
+    position: absolute;
+    text-align: center;
+    top: 5px;
+    left: 35%;
+    right: 35%;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+
+.barra-separadora{
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    top: 25px;
+    left: 10%;
+    right: 10%;
+    font-size: 25px;
+}
+
+/* indicadores */
+
+
+.Reglas{
+    color: #ffffff;
+}
+h2{
+    position: absolute;
+    top: 55%;
+    left:16%;
+    right: 50%;
+    font-size: 2em;
+}
+
+.indicador-1{
+    position: absolute;
+    top: 65%;
+    left: 17%;
+    right: 50%;
+    font-size: 25px;
+}
+
+.indicador-2{
+    position: absolute;
+    top: 70%;
+    left: 17%;
+    right: 50%;
+    font-size: 25px;
+}
+
+/* Relacionado a la edscritura del texto */
+.texto-principal{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    right: 55%;
+    color: #000000;
+    border: 5px solid black;
+    border-radius: 30px 0px 0px 30px;
+    background: white;
+    padding: 10px 50px 280px 10px;
+    font-size: 30px;
+    resize: none;
+
+}
+
+.encriptacion{
+    position: absolute;
+    font-size: 2em;
+    padding: 10px ;
+    left: 15%;
+    right: 70%;
+    top: 80%;
+    background: rgb(53, 107, 151);
+    color: black;
+    border: 4px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.desencriptar{
+    position: absolute;
+    font-size: 2em;
+    padding: 10px;
+    left: 35%;
+    right: 50%;
+    top: 80%;
+    background: rgb(53, 107, 151);
+    color: black;
+    border: 4px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.borrador{
+    position: absolute;
+    top: 25%;
+    left: 9%;
+    right: 80%;
+    width: 100px;
+   
+}
+
+/* texto encriptado y copiar */
+
+.texto-encriptado{
+    position: absolute;
+    top: 10%;
+    left: 55%;
+    right: 15%;
+    color: #000000;
+    border: 5px solid black;
+    border-radius: 30px 0px 0px 30px;
+    background: white;
+    padding: 10px 50px 280px 10px;
+    font-size: 30px;
+    resize: none;
+}
+
+.imagen-copiar{
+    position: absolute;
+    top: 45%;
+    left:60% ;
+    right: 20%;
+    width: 20%;
+}
+
+.copiar{
+    position: absolute;
+    font-size: 2em;
+    padding: 10px;
+    left: 60%;
+    right: 20%;
+    top: 80%;
+    background: rgb(53, 107, 151);
+    color: black;
+    border: 4px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.perfil{
+    position: absolute;
+    width: 100px;
+    top: 100%;
+    left: 23%;
+    right: 70%;
+}
+
+.autor{
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    top: 95%;
+    left: 0%;
+    right: 0%;
+
+}

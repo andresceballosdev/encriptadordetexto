@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+
+        <meta charset="UTF-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title> Encriptacion de codigo "A.S.C." </title>
+        
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+
+        <header>
+            
+            <div class="divisor">
+
+                <h1 class="titulo"> Encriptacion de texto "Alura Proyect" </h1>
+
+                <p class="barra-separadora">---------------------------------------------------------------------------------------------------------------------------------------</p>
+
+            </div>
+
+        </header>
+
+        <main>
+
+            <div class="Reglas">
+
+                <h2> Reglas </h2>
+
+                <ul>
+
+                    <li class="indicador-1">  No usar letras mayusculas </li>
+                    <li class="indicador-2">  No usar acentos ni caracteres </li>
+
+                </ul>
+
+            </div>
+
+            <div>
+
+            <!-- lugar donde se escrie el texto -->
+                <textarea  id="texto" class="texto-principal" placeholder="Escribe aquí..."
+                onkeyup="minuscula(this);"></textarea>
+                
+            <!-- botones de encriptar y desencriptar -->
+                <button id="botonEncriptar" type="button" class="encriptacion"> Encriptar </button>
+
+                <button id="botonDesencriptar"  type="button" class="desencriptar"> Desencriptar </button>
+
+            </div>
+
+            <div>
+
+                <input type="image" src="imagenes/borrar.png" class="borrador"> </input>
+
+            </div>
+
+            <div>
+
+                <!-- destino del texto encriptado -->
+
+                <textarea disabled id="texto-encriptado" class="texto-encriptado" placeholder="Todavia no se encripto ni se desencripto algo..."></textarea>
+
+                <!-- imagen donde indica copiar -->
+                <img src="imagenes/imagen-apuntando-transformed.png" class="imagen-copiar">
+
+                <!-- boton de copiar texto -->
+                <button type="button"  class="copiar"> Copiar </button>
+
+            </div>
+
+        </main>
+
+        <footer>
+
+            <img src="imagenes/imagenperfil.png" class="perfil">
+
+            <p class="autor">Autor: Andres Sebastian Ceballos</p>
+
+        </footer>
+
+        <script src= "app.js" ></script>
+
+    </body>
+
+</html>
+
